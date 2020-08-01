@@ -1,7 +1,7 @@
 const configuracao = require('dotenv').config();
 
 const TelegramBot = require('node-telegram-bot-api');
-const token_telegram = process.env.TOKEN_TELEGRAM || "YOUR TELEGRAM TOKEN";
+const token_telegram = process.env.TOKEN_TELEGRAM || "TODO: YOUR TELEGRAM TOKEN";
 
 const dialogFlow = require("./dialogFlow");
 const youtube = require("./youtube");

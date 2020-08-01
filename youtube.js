@@ -1,7 +1,7 @@
 const configuracao = require('dotenv').config();
 const Youtube = require('youtube-node');
 
-const token_youtube = process.env.TOKEN_YOUTUBE || "YOUR YOUTUBE TOKEN";
+const token_youtube = process.env.TOKEN_YOUTUBE || "TODO: YOUR YOUTUBE TOKEN";
 
 const youtube = new Youtube();
 youtube.setKey(token_youtube);

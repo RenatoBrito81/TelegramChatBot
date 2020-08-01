@@ -2,9 +2,9 @@ const configuracao = require('dotenv').config();
 
 const dialogFlow = require('dialogflow');
 
-const projectIdDialogFLow = process.env.PROJECT_ID_DIALOGFLOW || "YOUR PROJECT ID OF DIALOG FLOW";
-const privateKeyDialogFlow = process.env.PRIVATE_KEY_DIALOGFLOW || "YOUR PRIVATE KEY OF DIALOG FLOW";
-const emailDialogFlow = process.env.EMAIL_DIALOGFLOW || "YOUR EMAIL OF DIALOGFLOW";
+const projectIdDialogFLow = process.env.PROJECT_ID_DIALOGFLOW || "TODO: YOUR PROJECT ID OF DIALOG FLOW";
+const privateKeyDialogFlow = process.env.PRIVATE_KEY_DIALOGFLOW || "TODO: YOUR PRIVATE KEY OF DIALOG FLOW";
+const emailDialogFlow = process.env.EMAIL_DIALOGFLOW || "TODO: YOUR EMAIL OF DIALOGFLOW";
 
 const sessionClient = new dialogFlow.SessionsClient({
     projectId: projectIdDialogFLow,

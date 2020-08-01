@@ -20,4 +20,6 @@ Para isso será necessário fazer efetuar as configurações em cada API.
 
 
 
-**Observações:** As informações de tokens e credenciais foram armazenadas em arquivo .env da API dotenv e na falta das mesmas o código não irá funcionar.
+**Observações:** 
+   - As informações de tokens e credenciais foram armazenadas em arquivo .env da API dotenv e na falta das mesmas o código não irá funcionar.
+   - No código está incluso a tag TODO indicando o local onde deve-se inserir as informações de tokes e credenciais das API's utilizadas.
